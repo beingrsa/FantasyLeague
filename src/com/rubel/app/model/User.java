@@ -5,15 +5,17 @@ public class User {
 
     private String userName;
     private String email;
-
-    public User(String userName, String email, String password, String dob, int credit) {
+    
+    public User(String userName, String email) {
         super();
         this.userName = userName;
         this.email = email;
 
     }
+    
     public User() {
     }
+    
     
     public String getUserName() {
         return userName;
